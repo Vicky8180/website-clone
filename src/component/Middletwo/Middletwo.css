@@ -1,0 +1,58 @@
+.middletwo{
+    height: 280px;
+    
+    background-color: aqua;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+    /* bottom margin is liye diya taki do buttons ko overlape kara saku . negative margin dene se uska margin boareder
+    normal jo html allot kiya rehta hau usse upr chala jata hai ...
+    aur sabse main margin hi hai kisi box ke location define krne ke liye 
+    */
+    margin-bottom: -280px;
+    
+    
+}
+.forimage{
+    width: 1710px;
+}
+.buttonmain{
+    display: flex;
+    justify-content: space-between;
+    width: 1710px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 55px;
+    margin-bottom: 140px;
+}
+ .buttonleft{
+
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    text-decoration-color: black;
+    border: .1px solid rgb(255, 255, 255);
+    border-width: .1px;
+    border-style:  solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0px 8px 8px 0px;
+    margin-right: 31px; 
+}
+.buttonright{
+    
+    
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    text-decoration-color: black;
+    border: 5px solid rgb(255, 255, 255);
+    border-width: .1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 8px 0px 0px 8px; 
+
+   
+
+
+
+}

@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2874f0;
+    color: white;
+    padding: 7px 7%;
+    height: 42px;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar_left {
+    /* display: flex; */
+    align-items: center;
+    padding-left: 180px;
+}
+
+
+
+.navbar_left_input {
+    width: 550px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.navbar_right {
+    display: flex;
+    padding-right: 160px;
+}
+
+.navbar_right>p {
+    margin-left: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}

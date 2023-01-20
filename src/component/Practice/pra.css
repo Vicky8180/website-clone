@@ -1,0 +1,16 @@
+.anoop{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+}
+.cher{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+}
+.asd{
+    width: 1000px;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+}

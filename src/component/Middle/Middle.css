@@ -1,0 +1,30 @@
+.middle{
+   
+    background-color: #ffffff;
+    color: rgb(7, 7, 7);
+    padding: 7px 7%;
+    height: 100px;
+    width: 86%;
+}
+
+.m1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 180px;
+    padding-right: 110px;
+    padding-left: 128px;
+    padding-top: 7px;
+    /* width: 86%; */
+}
+
+
+
+.mid{
+    height: 2px;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    font-weight: bold; 
+}
