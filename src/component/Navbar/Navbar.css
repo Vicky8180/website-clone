@@ -44,3 +44,11 @@
 }
 .but{
 cursor: pointer;}
+.butt{
+    background-color: transparent;
+    cursor: pointer;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}

@@ -9,7 +9,7 @@ import {Third,Fourth} from "./component/Thirdbox/Thirdbox"
 import  Footer from "./component/Footer/Footer"
 import Sign from "./component/Sign/Sign"
 import FirstPage from "./FirstPage";
-import Vijay from "./component/vijay/vijay"
+import Vijay from "./component/Signin/vijay"
 import { Routes ,Route } from 'react-router-dom';
 import Temp from "./component/Temppage/temp"
 
@@ -33,7 +33,7 @@ function App() {
     
 
 <Route path="/"  element={<FirstPage/>}/>
-<Route path="/vijay" element={<Vijay/>}/>
+<Route path="/sign" element={<Sign/>}/>
 <Route path="/temp" element={<Temp/>}/>
 
 

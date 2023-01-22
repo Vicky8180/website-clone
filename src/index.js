@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Navbar  from './component/Navbar/Navbar';
 import { BrowserRouter } from 'react-router-dom';
 import Thirdbox2 from "./component/Thirdbox/Thirdbox2"
-
+import Sign from "./component/Sign/Sign"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +17,7 @@ root.render(
     <App/>
     </BrowserRouter>
     
-  
+  {/* <Sign/> */}
     
   </React.StrictMode>
 );

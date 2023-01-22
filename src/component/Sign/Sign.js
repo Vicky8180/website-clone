@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./Sign.css";
+import { useNavigate } from "react-router-dom";
 
 
 const Sign=()=>{
-var[val, setVal]=useState("a");
-var[val2, setVal2]=useState("b");
+var[val, setVal]=useState("");
+var[val2, setVal2]=useState("");
+const navigate=useNavigate();
 
 function takename(event){
     let temp=event.target.value;
@@ -23,6 +25,14 @@ function takename2(event){
 function checker(){
     console.log(val2);
     console.log(val);
+    if(val==="" || val2===""){
+        alert("Pleas! Enter Your details")
+        return ;
+    }
+        alert("You are logged-in")
+        navigate("/")
+
+    
     
 }
 

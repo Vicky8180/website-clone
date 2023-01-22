@@ -9,7 +9,7 @@ import {Third,Fourth} from "./component/Thirdbox/Thirdbox"
 import  Footer from "./component/Footer/Footer"
 import Sign from "./component/Sign/Sign"
 
-import Vijay from "./component/vijay/vijay"
+import Vijay from "./component/Signin/vijay"
 
 
 
@@ -21,9 +21,9 @@ function FirstPage(){
     <Middletwo/>
     <Third/>
     <Fourth/>
-    <Fourth/> <Fourth/>
+    <Fourth/> 
      <Fourth/> <Fourth/> 
-<Fourth/> <Fourth/>
+
 <Fourth/> <Fourth/>
     <Footer/>
 

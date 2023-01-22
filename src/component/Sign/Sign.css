@@ -1,14 +1,19 @@
+.rahul{
+    width: 1730px;
+    height: 790px;
+    /* margin-left: 600px; */
+    /* margin-top: 200px; */
+    background-color: rgb(237, 244, 244);
+}
+
 .sign{
-    width: 500px;
-    height: 500px;
-    margin-left: 600px;
-    margin-top: 200px;
-    background-color: aqua;
+    /* width: 1730px;
+    height: 800px; */
+   padding-left: 650px;
+   padding-top: 160px;
+    background-color: rgb(237, 244, 244);
 }
-.h1{
-    margin-left: 185px;
-    margin-top: 200px;
-}
+
 .input{
     display: inline;
     width: 500px;
@@ -18,17 +23,21 @@
     width: 450px;
     height:  50px;
     margin-left: 20px;
-    background-color: blue;
+    background-color: rgb(41, 41, 140);
+    /* border-radius: 100px; */
+    border-left:0px;
 }
 .form2{
     width: 450px;
-    height:  50px;
-    background-color: rgb(113, 17, 57);
+    height:  35px;
+    /* background-color: rgb(113, 17, 57); */
     /* margin-left: 20px; */
 }
 .TAKING{
     width: 450px;
     height:  50px;
+    border-radius: 40px;
+    border-left:10px;
     
     /* background-color: rgb(113, 17, 57); */
 }
@@ -38,10 +47,13 @@
     margin-left: 185px;
     height:  50px;
     background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 40px;
+    border-left:0px;
 
 }
-.rahul{
+/* .rahul{
     width: 1700px;
     height: 900px;
     background-color: transparent;
-}
+} */
