@@ -32,7 +32,15 @@
 
 .navbar_right>p {
     margin-left: 25px;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-weight: 600;
     font-size: 18px;
 }
+.login{
+    width: 100px;
+    margin-top: 14px;
+    /* margin-left: 40px; */
+    cursor: pointer;
+}
+.but{
+cursor: pointer;}

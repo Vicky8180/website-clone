@@ -1,0 +1,98 @@
+.themed-login-form {
+
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
+height: 100vh;
+    
+    width: 100vw;
+    
+    background-color: transparent; 
+    /* background-image: url("/vijay"); */
+    
+    color: #1b1b1b;
+    
+    }
+    
+    .header {
+    
+    font-size: 1.75em;
+    
+    font-weight: bold;
+    background-color: transparent;
+    margin-bottom: 0.75em;
+    
+    }
+    
+    .input-field {
+    
+    width: 30vw;
+    
+    }
+    
+    .input-field:focus,
+    
+    .input-field:active {
+    
+    box-shadow: none;
+    
+    outline: 0px;
+    
+    }
+    
+    .input-login {
+    
+    border-radius: 8px 8px 0px 0px;
+    
+    }
+    
+    .input-password {
+    
+    border-radius: 0px 0px 8px 8px;
+    
+    }
+    
+    .actions {
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    width: 30vw;
+    background-color: transparent;
+    margin-top: 1%;
+    
+    }
+    
+    .sign-in-button {
+    
+    width: 30vw;
+    
+    background-color: #5046e5;
+    
+    color: #f9fafc;
+    
+    font-weight: 500;
+    
+    margin-top: 0.5%;
+    
+    border-radius: 8px;
+    
+    }
+    
+    .checkbox-label {
+    
+    margin-left: 6px;
+    
+    }
+    .trans{
+        background-color: transparent;
+        width: 1000px;
+        height: 700px;
+    }

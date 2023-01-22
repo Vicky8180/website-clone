@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar  from './component/Navbar/Navbar';
-
+import { BrowserRouter } from 'react-router-dom';
+import Thirdbox2 from "./component/Thirdbox/Thirdbox2"
 
 
 
@@ -12,9 +13,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
+   <BrowserRouter>
     <App/>
-     
+    </BrowserRouter>
     
+  
     
   </React.StrictMode>
 );

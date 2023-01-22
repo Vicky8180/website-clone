@@ -1,8 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-
+  import {useNavigate} from "react-router-dom"
 const Navbar = () => {
   
+ const nevigate=useNavigate();
+  function nevi(){
+    nevigate("/vijay");
+  }
 
   return (
     <div className="navbar">
@@ -17,6 +21,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar_right">
+<div className="login">
+  <button className="but" onClick={nevi} >
+  Login
+  </button>
+</div>
         <p>Name</p>
         <p>Become a seller</p>
         <p>More</p>

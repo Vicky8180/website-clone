@@ -1,11 +1,14 @@
 import React ,{ useState} from "react";
 import "./Middletwo.css";
+import {useNavigate} from "react-router-dom"
 
 
 
-
+// https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/a814cb587ecbf02d.jpeg?q=50
 
 const Middletwo = () => {
+
+  const navigate=useNavigate();
    const [value , setValue]=useState('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/11946434f052f86f.jpg?q=50')
     let imsource =[];
   imsource.push('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/a01995f8c2dc7ebd.jpg?q=50');
@@ -29,6 +32,7 @@ const Middletwo = () => {
 imsource.push('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/a01995f8c2dc7ebd.jpg?q=50');
   imsource.push('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/448c152993ceefb3.jpeg?q=50');
   imsource.push('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/291f71468a6eff71.jpg?q=50');
+  imsource.push('https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/a814cb587ecbf02d.jpeg?q=50');
 
   
 
@@ -57,9 +61,9 @@ function starter(r){
 function autochange(r){
 setTimeout(()=>{
   setValue(imsource[r])
-  console.log(   "automaticwala"+ r)
+  // console.log(   "automaticwala"+ r)
  
-  if(r==12){
+  if(r==13){
     setR(0);
     // starter(r)
   }else {
@@ -71,7 +75,11 @@ setTimeout(()=>{
 
 }
 
+function posterasbutton(){
 
+  navigate("/temp");
+
+}
 
 
 
@@ -82,7 +90,10 @@ setTimeout(()=>{
       <Welcome text={value} />
       <div className="buttonmain">
       <button  className="buttonleft" onClick={changing }>P</button>
-      <button  className="buttonright" onClick={changing }>R</button>
+      <button  className="posterasbutton" onClick={posterasbutton }></button>
+      <button  className="buttonright" onClick={changing }>M</button>
+     
+
       {/* <button className="qa"  onMouseOut={changingg }>  p</button> */}
       </div>
     </div> 
